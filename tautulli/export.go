@@ -1,5 +1,11 @@
 package tautulli
 
+import (
+	"encoding/json"
+	"fmt"
+	"os"
+)
+
 // MovieExport represents the contents of a Tautulli export file for a Movie
 // Current supported fields include Metadata Level 1 and Media Info Level 1 fields
 type MovieExport struct {
@@ -46,4 +52,19 @@ type Media struct {
 	VideoProfile       string  `json:"videoProfile" csv:"videoProfile"`
 	VideoResolution    string  `json:"videoResolution" csv:"videoResolution"`
 	Width              int     `json:"width" csv:"width"`
+}
+
+func ParseJsonMovieExport(path string) ([]MovieExport, error) {
+	var export []MovieExport
+	exportBytes, err := os.ReadFile(path)
+	if err != nil {
+		return export, fmt.Errorf("error reading file: %w", err)
+	}
+
+	err = json.Unmarshal(exportBytes, &export)
+	if err != nil {
+		fmt.Println("error:", err)
+	}
+
+	return export, nil
 }
