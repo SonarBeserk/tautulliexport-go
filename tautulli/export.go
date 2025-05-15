@@ -9,11 +9,11 @@ type MovieExport struct {
 	ContentRating         string   `json:"contentRating" csv:"contentRating"`
 	Duration              int      `json:"duration" csv:"duration"`
 	DurationHuman         string   `json:"durationHuman" csv:"durationHuman"`
-	EditionTitle          string   `json:"editionTitle" csv:"editionTitle"`
+	EditionTitle          *string  `json:"editionTitle" csv:"editionTitle"`
 	Guid                  string   `json:"guid" csv:"guid"`
 	HasCreditsMarker      bool     `json:"hasCreditsMarker" csv:"hasCreditsMarker"`
 	Locations             []string `json:"locations" csv:"locations"`
-	OriginalTitle         string   `json:"originalTitle" csv:"originalTitle"`
+	OriginalTitle         *string  `json:"originalTitle" csv:"originalTitle"`
 	OriginallyAvailableAt string   `json:"originallyAvailableAt" csv:"originallyAvailableAt"`
 	Rating                float32  `json:"rating" csv:"rating"`
 	RatingImage           string   `json:"ratingImage" csv:"ratingImage"`
