@@ -73,7 +73,7 @@ func TestMovieExamples(t *testing.T) {
 
 			diff := cmp.Diff(export, tt.expectedExports)
 			if diff != "" {
-				t.Errorf("mismatch (-want +got):\n%s", diff)
+				t.Errorf("export values do not match (-want +got):\n%s", diff)
 			}
 		})
 	}
