@@ -1,0 +1,48 @@
+[
+    {
+        "addedAt": "2025-02-02T00:08:51",
+        "audienceRating": 7.3,
+        "audienceRatingImage": "rottentomatoes://image.rating.upright",
+        "contentRating": "PG",
+        "duration": 5723893,
+        "durationHuman": "1 hr 35 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d7768324de0ee001fccad68",
+        "hasCreditsMarker": true,
+        "locations": [
+            "/mnt/media/Jellyfin/Movies/Treasure Planet (2002)/Treasure Planet (2002).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2002-11-21",
+        "rating": 6.9,
+        "ratingImage": "rottentomatoes://image.rating.ripe",
+        "ratingKey": 920,
+        "studio": "Walt Disney Pictures",
+        "summary": "In this science fiction rendering of the classic novel \"Treasure Island\", Jim Hawkins (Joseph Gordon-Levitt) is a rebellious teen seen by the world as an aimless slacker. After he receives a map from a dying pirate, he embarks on an odyssey across the universe to find the legendary Treasure Planet.",
+        "tagline": "Find your place in the universe.",
+        "title": "Treasure Planet",
+        "titleSort": "Treasure Planet",
+        "type": "movie",
+        "userRating": null,
+        "year": 2002,
+        "media": [
+            {
+                "aspectRatio": 1.66,
+                "audioChannels": 6,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 7262,
+                "container": "mkv",
+                "duration": 5723893,
+                "hdr": false,
+                "height": 1080,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main",
+                "videoResolution": "1080",
+                "width": 1816
+            }
+        ]
+    }
+]

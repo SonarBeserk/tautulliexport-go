@@ -1,0 +1,48 @@
+[
+    {
+        "addedAt": "2024-03-09T19:34:13",
+        "audienceRating": 6.4,
+        "audienceRatingImage": "rottentomatoes://image.rating.upright",
+        "contentRating": "G",
+        "duration": 5994400,
+        "durationHuman": "1 hr 40 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d77682e6f4521001ea9ac27",
+        "hasCreditsMarker": true,
+        "locations": [
+            "/mnt/media/Jellyfin/Movies/The Polar Express (2004)/The Polar Express (2004) - 2160p.mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2004-11-10",
+        "rating": 5.5,
+        "ratingImage": "rottentomatoes://image.rating.rotten",
+        "ratingKey": 842,
+        "studio": "Golden Mean",
+        "summary": "This is the story of a young hero boy who boards on a powerful magical train that's headed to the North Pole and Santa Claus' home on Christmas Eve night. During this ride, he embarks on a journey of self-discovery which shows him that the wonder of life never fades for those who believe.",
+        "tagline": "This holiday season... believe.",
+        "title": "The Polar Express",
+        "titleSort": "Polar Express",
+        "type": "movie",
+        "userRating": null,
+        "year": 2004,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 6,
+                "audioCodec": "dca",
+                "audioProfile": "dts",
+                "bitrate": 11322,
+                "container": "mkv",
+                "duration": 5994400,
+                "hdr": false,
+                "height": 1608,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main",
+                "videoResolution": "4k",
+                "width": 3840
+            }
+        ]
+    }
+]
