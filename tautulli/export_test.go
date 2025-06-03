@@ -14,7 +14,7 @@ func TestMovieExamplesJson(t *testing.T) {
 		expectedExports []tautulli.MovieExport
 	}{
 		// the table itself
-		{"../examples/json/Movie - The Polar Express [842].json", []tautulli.MovieExport{
+		{"../examples/Movie - The Polar Express [842].json", []tautulli.MovieExport{
 			{
 				AddedAt:             "2024-03-09T19:34:13",
 				AudienceRating:      6.4,
@@ -62,7 +62,7 @@ func TestMovieExamplesJson(t *testing.T) {
 				},
 			},
 		}},
-		{"../examples/json/Movie - Treasure Planet [920].json", []tautulli.MovieExport{
+		{"../examples/Movie - Treasure Planet [920].json", []tautulli.MovieExport{
 			{
 				AddedAt:             "2025-02-02T00:08:51",
 				AudienceRating:      7.3,
