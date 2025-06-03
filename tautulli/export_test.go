@@ -7,7 +7,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 )
 
-func TestMovieExamples(t *testing.T) {
+func TestMovieExamplesJson(t *testing.T) {
 	// Defining the columns of the table
 	var tests = []struct {
 		file            string
